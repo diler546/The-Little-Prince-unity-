@@ -7,12 +7,12 @@ public class HealthBar : MonoBehaviour
 {
     [SerializeField] public Slider slider;
 
-    public void SetMaxHelth(int helth)
+    public void SetMaxHealth(int helth)
     {
         slider.maxValue = helth;
         slider.value = helth;
     }
-    public void SetHelth(int helth)
+    public void SetHealth(int helth)
     {
         slider.value = helth;
     }
